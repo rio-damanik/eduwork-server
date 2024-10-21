@@ -1,0 +1,8 @@
+doctype html
+html(lang="en")
+  head
+    title Error
+  body
+    h1= message
+    if error.status
+      h2 Error Status: #{error.status}
